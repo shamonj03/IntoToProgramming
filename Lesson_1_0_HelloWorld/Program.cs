@@ -11,6 +11,7 @@ namespace Lesson_1_0_HelloWorld
         /// <param name="args"></param>
         public static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
         }
     }
 }

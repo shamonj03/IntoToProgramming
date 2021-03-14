@@ -29,6 +29,14 @@ namespace Lesson_1_2_Input
         /// </summary>
         public void EnterDetails()
         {
+            Console.Write("Please enter your name: ");
+            var name = Console.ReadLine();
+
+            Console.Write("Please enter your age: ");
+            var age = Console.ReadLine();
+
+            Console.WriteLine();
+            Console.WriteLine($"Your name and age is: {name}, {age}.");
         }
     }
 }
